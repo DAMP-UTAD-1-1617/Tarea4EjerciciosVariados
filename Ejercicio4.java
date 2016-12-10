@@ -13,7 +13,7 @@ public class Ejercicio4 {
 		int C = in.nextInt();
 			if (A>B && A>C){
 				num=A;
-			}else if(B>C){
+			}else if(B>A && B>C){
 				num=B;
 			}else{
 				num=C;
